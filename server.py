@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import socket
-import threading # Импортируем модуль для потоков
+import threading
 import time
 import os
 import hashlib
@@ -21,8 +21,8 @@ global users
 users = []
 global quota_
 quota_ = []
-def server_thread(conn, addr): # данная функция отвечает за обслуживание клиентов, т.е. приём команд и вывод результата
-    print(f"{time.ctime()} |", addr, 'Connected') # Выводим что новое подключение
+def server_thread(conn, addr):
+    print(f"{time.ctime()} |", addr, 'Connected')
     print(f"{time.ctime()} | 250 0.0.0.0, I am glad to meet you")
     print(f"{time.ctime()} | 250 Ok")
     print(f"{time.ctime()} | QUOTA CONFIGURED")
@@ -32,9 +32,9 @@ def server_thread(conn, addr): # данная функция отвечает з
         except:
             print(addr, '221 Bye')
             break
-        if not data: # data = None если клиент отключился (т.е. даже если  моментально закрылась прога, даже если тупо электричество у того отрубили)
-            print(addr, '221 Bye') # Выводим что он отключился
-            break # Останавливваем этот цикл в потоке
+        if not data:
+            print(addr, '221 Bye') 
+            break 
         data = data.decode('utf8')
         args = data.split(' ')
         if args[0] == "exec":

@@ -52,7 +52,6 @@ def server_thread(conn, addr):
                                 data = ' '.join(args[6:]).split(';;;')
                                 title = data[0]
                                 description = ';;;'.join(data[1:])
-                                my_ip = socket.gethostbyname(socket.gethostname())
                                 print(f"{time.ctime()} | 250 Ok")
                                 print(f"{time.ctime()} | REQUEST RECEIVED, SENDING MESSAGE..")
                                 print(f"{time.ctime()} | REQUEST RECEIVED, ")

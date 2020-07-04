@@ -1,6 +1,6 @@
 # mouseSMTP
 mouseSMTP Server and Client on Python. OpenSource Program.
-
+![Screenshot](screenshot.png)
 It's free and very fast Python-based Mail Server + Client emulator, works like really SMTP Server and client.
 
 What's you can do?

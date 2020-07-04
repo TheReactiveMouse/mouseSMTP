@@ -43,13 +43,4 @@ Username : user
 
 You need manually all required users or make a web site and make automatic creation of users on registration or another service.
 
-in user.db you can add your messages by default.
-
-config.conf:
- you need add it's lines
- isp_name=WithoutSpacesISPName Your ISP Name.Required.
- isp_phonenumbere=PhoneNumber(NotRequired) Your phone number, you can here say no required
- isp_welcome_fn=welcome.txt Your welcome file.Is required.
- slots=Your slots count, for example 20.
-
-And start server. If you view "ALL OK", configuration is loaded successfully and you can use server, use client for connect.
+in user.db you can add your messages by default

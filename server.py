@@ -7,9 +7,6 @@ import time
 import os
 import hashlib
 
-config_file = open("config.conf")
-data = config_file.readlines()
-
 
 sock = socket.socket()
 sock.bind(('', 703))

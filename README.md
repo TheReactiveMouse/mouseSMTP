@@ -1,5 +1,5 @@
 # mouseSMTP
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot_2.png)
 mouseSMTP Server and Client on Python. OpenSource Program.
 It's free and very fast Python-based Mail Server + Client emulator, works like really SMTP Server and client.
 

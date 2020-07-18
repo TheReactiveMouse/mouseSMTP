@@ -27,7 +27,7 @@ Parts
  - If you need, you can build it with pyinstaller.
  - Create files {
  
-    config.conf - Configuration file
+    
     user.db - User file with messages.
     users.db - Encrypted data base of users, password and usernames.SHA512.
  
@@ -41,6 +41,6 @@ user:user
 Password : user
 Username : user
 
-You need manually all required users or make a web site and make automatic creation of users on registration or another service.
+You need manually add all required users or make a web site and make automatic creation of users on registration or another service.
 
 in user.db you can add your messages by default
